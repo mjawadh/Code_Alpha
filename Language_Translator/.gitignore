@@ -1,0 +1,44 @@
+# Virtual environments
+.venv/
+venv/
+vn/
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model caches and transformers/HF cache
+.cache/
+# Hugging Face transformer cache (explicit)
+huggingface/
+transformers_cache/
+hf_cache/
+
+# Model checkpoints (local storage inside repo)
+model/checkpoints/
+model/**/*.bin
+model/**/*.pt
+model/**/*.ckpt
+
+# Database files
+*.db
+*.sqlite
+cache/*.db
+db.sqlite
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+env/
+
+# pip / wheel
+pip-wheel-metadata/
+
+failing_cases.txt
