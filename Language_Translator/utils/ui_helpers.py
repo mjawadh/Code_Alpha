@@ -21,7 +21,7 @@ def render_text_inputs():
     return st.text_area("Input Text", height=150, placeholder="Type or paste text here...")
 
 def render_tts_toggle():
-    return st.toggle("Enable Text-to-Speech (optional)", value=False)
+    return st.toggle("Enable Text-to-Speech", value=False)
 
 def render_result(translated_text):
     st.subheader("Translated Text:")
